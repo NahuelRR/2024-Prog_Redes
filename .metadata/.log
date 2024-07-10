@@ -1483,3 +1483,9 @@ java.lang.Exception: Resource '/examen-1/src/main/java/examen_1/EscribirDatos.ja
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-10 12:57:40.523
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-10 13:09:34.362
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-10 13:09:34.365
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
