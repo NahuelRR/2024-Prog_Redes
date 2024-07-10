@@ -1,0 +1,15 @@
+package examen_1;
+
+public class  {
+    public FileCopy(String sourceFile, String destinationFile) {
+        System.out.println("Desde: " + sourceFile);
+        System.out.println("Hacia: " + destinationFile);
+
+        try {
+            File inFile = new File(sourceFile);
+            File outFile = new File(destinationFile);
+
+            FileInputStream in = new FileInputStream(inFile);
+            FileOutputStream out = new FileOutputStream(outFile);
+
+}

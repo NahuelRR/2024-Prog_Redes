@@ -1,0 +1,19 @@
+package examen_1;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Escribir {
+    public static void main(String[] args) {
+        try{            
+            FileWriter escritorDeFichero = new FileWriter("datos.csv");            
+            escritorDeFichero.write("Información.");
+            escritorDeFichero.close();
+            System.out.println("Fichero escrito con éxito.");
+        }catch (IOException error){
+            System.out.println("Error escribir en el fichero.");
+            error.printStackTrace();
+        }
+    }
+}
+}
